@@ -1,0 +1,7 @@
+This is a test case for something tht puzzles me.
+
+I want to be able to create an application that has a set of STI models.
+I want to be able to create a select field with a choice of the types.
+If I just use "Parent.subclasses_of(Parent)", it fails. If I use the
+derived types, then use the same call, I see them.
+This is probably something to do with lazy loading of models... maybe.

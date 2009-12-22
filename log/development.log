@@ -1,0 +1,10 @@
+
+
+Processing ParentsController#index (for 127.0.0.1 at 2009-12-22 16:16:48) [GET]
+Rendering parents/index
+Completed in 26ms (View: 9, DB: 0) | 200 OK [http://localhost/parents/]
+
+
+Processing ParentsController#index (for 127.0.0.1 at 2009-12-22 16:22:17) [GET]
+Rendering parents/index
+Completed in 67ms (View: 10, DB: 0) | 200 OK [http://localhost/parents/]
