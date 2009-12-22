@@ -5,3 +5,9 @@ I want to be able to create a select field with a choice of the types.
 If I just use "Parent.subclasses_of(Parent)", it fails. If I use the
 derived types, then use the same call, I see them.
 This is probably something to do with lazy loading of models... maybe.
+
+To see the problem, install the app, run the server and navigate to
+http://localhost:3000/parents to see the single defined view for this
+application. It has two variables, one holding the types seen before using
+them (none, in my case) and one holding the types seen after using them 
+(both of them). I find this confusing. I probably don't know enough...
